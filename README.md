@@ -12,7 +12,7 @@ In this project i use Python 3.0. and Python libraries are also required:
 <li> scikit-learn
 
 ### Datasets 
-Datasets are not included to this project due to its size. Please email me sabbers@gmail.com if you need the datasets.
+Datasets are not included in the repository due to its size. Please email me sabbers@gmail.com if you need the datasets.
 
 
 ### Contributors
