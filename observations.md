@@ -1,7 +1,7 @@
 ## Lending Club Loan Analysis and Prediction
 
 ### Feature engineering:
-
+<li> Removing application type improves the score a little bit
 
 ### Model improvement observations
 One hotcoding (95 features):
@@ -11,6 +11,26 @@ One hotcoding (95 features):
 Without one hot coding (35 features):
                 A) Logistic regression: 66.4
                 B) Random forest: 73.57 (roc-auc: 81.0%)
+                
+Without application_type feature:
+                A) Logistic regression: 66.38
+                B) Random forest: 73.66 (roc-auc: 81.17%)
+
+Without issue_year feature:
+                A) Logistic regression: 66.38
+                B) Random forest: 73.18 (roc-auc: 80.82%)
+
+Without fico_range_low feature:
+                A) Logistic regression: 66.40
+                B) Random forest: 73.05 (roc-auc: 80.68%)
+                
+Without ['funded_amnt','funded_amnt_inv', 'loan_diff'] feature:
+                A) Logistic regression: 66.40
+                B) Random forest: 73.13 (roc-auc: 80.74%)
+
+Without earliest_cr_year feature:
+                A) Logistic regression: 66.35
+                B) Random forest: 73.20 (roc-auc: 80.77%)
 
 
 <li> Raw data without up/downsampling model accuracies is pretty high almost 90 percent. However model underperforms on minority class (charged off).
