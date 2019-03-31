@@ -6,6 +6,10 @@ _build
 *.tsv
 docs/source/interactive/magics-generated.txt
 docs/source/config/shortcuts/*.csv
+Financial_data_analysis_.zip
+Financial_data_analysis_/
+Presentation/
+temp-plot.html
 docs/gh-pages
 jupyter_notebook/notebook/static/mathjax
 jupyter_notebook/static/style/*.map
